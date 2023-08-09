@@ -392,19 +392,6 @@ if __name__ == '__main__':
 
 
 
-    ''' 测试模型
-    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-    # 创建模型实例
-    model = UResNet_VGG(n_channels=3, n_classes=1)
-    model.to(device)
-
-    # 创建输入数据
-    x1 = torch.randn(1, 3, 256, 256).to(device)
-    x2 = torch.randn(1, 3, 256, 256).to(device)
-
-    # 打印模型的参数量
-    summary(model, input_size=[(3, 256, 256), (3, 256, 256)])
-    '''
     
 
 
