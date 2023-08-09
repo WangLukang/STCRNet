@@ -20,6 +20,6 @@ This project aims to provide a solution for semi-supervised change detection tas
 
 We express gratitude to the [pytorch-grad-cam](https://github.com/jacobgil/pytorch-grad-cam) project for enabling us to create CAM images. Special thanks to their team for their valuable contribution.
 
-##Citation
+## Citation
 
 This will be updated after the paper is published.
