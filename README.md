@@ -16,6 +16,15 @@ This project aims to provide a solution for semi-supervised change detection tas
 4. Use `train_consitency.py` to train the re-trained model.
 5. Evaluate the model's performance using `metric_total.py`.
 
+## More results
+
+| CDD Dataset | Precision (%) | Recall (%) | F1 Score (%) | IoU (%) |
+|---------|--------------:|-----------:|-------------:|--------:|
+| 5%      |          91.93|       82.73|         87.09|    77.13|
+| 10%     |          92.87|       85.33|         88.94|    80.08|
+| 20%     |          93.77|       87.00|         90.26|    82.25|
+| 40%     |          94.15|       90.69|         92.39|    85.86|
+
 ## Acknowledgments
 
 We express gratitude to the [pytorch-grad-cam](https://github.com/jacobgil/pytorch-grad-cam) project for enabling us to create CAM images. Special thanks to their team for their valuable contribution.
