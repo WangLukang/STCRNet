@@ -4,6 +4,10 @@ Welcome to the initial version of our project!
 
 **Note:** This release represents an initial version of the project. The method's steps are not fully integrated yet, and automation is currently lacking. We plan to release a more automated version in the near future.
 
+## Citation
+
+STCRNet: A Semi-Supervised Network Based on Self-Training and Consistency Regularization for Change Detection in VHR Remote Sensing Images [https://ieeexplore.ieee.org/document/10366814]
+
 ## Project Overview
 
 This project aims to provide a solution for semi-supervised change detection tasks. The current code version can perform semi-supervised change detection tasks, but it might involve a bit more manual effort.
@@ -29,6 +33,4 @@ This project aims to provide a solution for semi-supervised change detection tas
 
 We express gratitude to the [pytorch-grad-cam](https://github.com/jacobgil/pytorch-grad-cam) project for enabling us to create CAM images. Special thanks to their team for their valuable contribution.
 
-## Citation
 
-This will be updated after the paper is published.
